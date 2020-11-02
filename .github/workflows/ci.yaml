@@ -27,8 +27,6 @@ jobs:
             curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
             dep ensure
         fi
-    - name: gofmt
-      run: make fmt
 
     - name: Build
       run: go bulid -v .
