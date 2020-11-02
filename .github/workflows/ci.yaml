@@ -29,7 +29,7 @@ jobs:
         fi
 
     - name: Build
-      run: go bulid -v .
+      run: go build -v .
 
     - name: Test
       run: make test
